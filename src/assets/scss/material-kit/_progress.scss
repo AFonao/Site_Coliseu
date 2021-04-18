@@ -1,0 +1,26 @@
+.md-progress-bar{
+  height: 4px;
+  margin-bottom: 20px;
+
+  &.md-rose{
+    @include md-progress-bar($brand-rose);
+  }
+  &.md-danger{
+    @include md-progress-bar($brand-danger);
+  }
+  &.md-primary{
+    @include md-progress-bar($brand-primary);
+  }
+  &.md-info{
+    @include md-progress-bar($brand-info);
+  }
+  &.md-success{
+    @include md-progress-bar($brand-cor-restaurante);
+  }
+  &.md-warning{
+    @include md-progress-bar($brand-warning);
+  }
+  &.md-cor-restaurante{
+    @include btn-styles($brand-cor-restaurante);
+  }
+}

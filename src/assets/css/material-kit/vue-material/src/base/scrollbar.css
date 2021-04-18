@@ -1,0 +1,12 @@
+.md-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px; }
+
+.md-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px; }
+
+.md-scrollbar::-webkit-scrollbar-button {
+  display: none; }
+
+/*# sourceMappingURL=scrollbar.css.map */

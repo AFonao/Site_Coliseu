@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/**
+ * Hightly based on: "Using Sass to automatically pick text colors"
+ * https://medium.com/dev-channel/using-sass-to-automatically-pick-text-colors-4ba7645d2796
+ */
+/**
+ * Precomputed linear color channel values, for use in contrast calculations.
+ * See https://www.w3.org/TR/WCAG20-TECHS/G17.html#G17-tests
+ * ---
+ *
+ *  Algorithm, for c in 0 to 255:
+ *  f(c) {
+ *    c = c / 255;
+ *    return c < 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+ *  }
+ *
+ *  This lookup table is needed since there is no `pow` in SASS.
+ *
+ * ---
+ * @access private
+ * @type Map
+ * @group themes
+ */
+/**
+ * Calculate the luminance for a color.
+ * ---
+ * @access private
+ * ---
+ * @param {string} $color —  The color to be analysed
+ */
+/**
+ * Calculate the contrast ratio between two colors.
+ * ---
+ * @access private
+ * ---
+ * @param {string} $bg —  The bg color
+ * @param {string} $fg —  The fg color to be compared
+ */
+/**
+ * Determine whether to use dark or light text on top of given color.
+ * Returns dark or light depending on the contrast ratio.
+ * ---
+ * @access private
+ * ---
+ * @param {string} $color —  The desired color to be compared
+ */
+/*# sourceMappingURL=color-contrast.css.map */

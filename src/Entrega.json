@@ -1,0 +1,17 @@
+{
+    "Entregas":[
+        {
+            "bairro": "Oficinas",
+            "valor": "12"
+        },
+        {
+            "bairro": "Santa Paula",
+            "valor": "10"
+        },
+        {
+            "bairro": "Uvaranas",
+            "valor": "13"
+        }
+    ]
+   
+}

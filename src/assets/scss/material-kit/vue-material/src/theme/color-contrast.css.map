@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;AAEH;;;;;;;;;;;;;;;;;GAiBG;AAqQH;;;;;;GAMG;AAWH;;;;;;;GAOG;AAUH;;;;;;;GAOG",
+    "sources": [
+        "color-contrast.scss"
+    ],
+    "names": [],
+    "file": "color-contrast.css"
+}

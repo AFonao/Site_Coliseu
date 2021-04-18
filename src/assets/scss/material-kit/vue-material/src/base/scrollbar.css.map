@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,aADW,AACV,mBAAmB,CAAC;EACnB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,aAAa,EAAE,GAAG;CACnB;;AALH,AAOE,aAPW,AAOV,yBAAyB,CAAC;EACzB,aAAa,EAAE,GAAG;CACnB;;AATH,AAWE,aAXW,AAWV,0BAA0B,CAAC;EAC1B,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "scrollbar.scss"
+    ],
+    "names": [],
+    "file": "scrollbar.css"
+}
